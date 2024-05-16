@@ -1,8 +1,29 @@
-# React + Vite
+# Post Input with Mentions
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<img src="t1.png" alt="pic1" width="100%">
+<img src="t2.png" alt="pic2" width="100%">
+<img src="t3.png" alt="pic3" width="100%">
 
-Currently, two official plugins are available:
+## Installation
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Clone the repository and install dependencies using npm:
+
+`npm install`
+
+## Usage
+
+Start the development server:
+
+`npm run dev`
+
+This will open the app in your default browser.
+
+Build the app for production:
+
+`npm run build`
+
+Preview the production build:
+
+`npm run preview`
+
+
