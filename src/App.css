@@ -1,0 +1,34 @@
+.container{
+    position: relative;
+}
+.search-dropdown{
+    position: absolute;
+    top: 16px;
+    left: 150px;
+    font-size: 14px;
+}
+
+.suggestion-list{
+    overflow-y: auto
+}
+
+.suggestion-list::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;               /* width of the entire scrollbar */
+}
+  
+.suggestion-list::-webkit-scrollbar-track {
+    background: rgb(173, 181, 189);        /* color of the tracking area */
+}
+  
+.suggestion-list::-webkit-scrollbar-thumb {
+    background-color: rgb(82, 82, 82);    /* color of the scroll thumb */
+    border-radius: 5px;       /* roundness of the scroll thumb */
+}
+
+.postcard{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 40px;
+}
