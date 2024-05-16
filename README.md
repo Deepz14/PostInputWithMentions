@@ -1,8 +1,8 @@
 # Post Input with Mentions
 
-<img src="t1.png" alt="pic1" width="100%">
-<img src="t2.png" alt="pic2" width="100%">
-<img src="t3.png" alt="pic3" width="100%">
+<img src="thumbnail1.png" alt="pic1" width="100%">
+<img src="thumbnail2.png" alt="pic2" width="100%">
+<img src="thumbnail3.png" alt="pic3" width="100%">
 
 ## Installation
 
