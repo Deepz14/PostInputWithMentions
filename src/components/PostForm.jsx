@@ -19,9 +19,9 @@ const PostForm = () => {
 
     const onTextChangeHandler = (e) => setText(e.target.value);
     const onCheckMentionHandler = (e) => {
-        if(e.keyCode === 50 && e.key === "@"){
+        if(text.includes("@")){
+            textareaRef.current.blur(); 
             setShowSearchDropdown(true);
-            textareaRef.current.blur();                
         }
     }
 
@@ -47,6 +47,7 @@ const PostForm = () => {
         const updateText = text.includes("@") ? `${text.replace("@", "")} ${selectedUser}` : "";
         setText(updateText);
         setShowSearchDropdown(false);
+        textareaRef.current.focus();
     }
 
     return (
